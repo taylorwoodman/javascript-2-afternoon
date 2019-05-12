@@ -1,80 +1,97 @@
-/*
-  Once you complete a problem, refresh ./SpecRunner.html in your browser and check to see if the problem's test(s) are passing.
-  Passed tests will be indicated by a green circle.
-  Failed tests will be indicated by a red X.
+// /*
+//   Once you complete a problem, refresh ./SpecRunner.html in your browser and check to see if the problem's test(s) are passing.
+//   Passed tests will be indicated by a green circle.
+//   Failed tests will be indicated by a red X.
 
-  You can refresh the page at any time to re-run all the tests.
-*/
+//   You can refresh the page at any time to re-run all the tests.
+// */
 
-////////// PROBLEM 1 //////////
+// ////////// PROBLEM 1 //////////
 
-/*
-  Create an object called me.
-  Give it a key of name with the value being your name, and another key of age with the value being your age.
-  Then alert your name using dot notation.
-*/
+// /*
+//   Create an object called me.
+//   Give it a key of name with the value being your name, and another key of age with the value being your age.
+//   Then alert your name using dot notation.
+// */
+const alert = console.log
+const me = {
+    name: 'Taylor',
+    age: 23
+};
 
-//Code here
+alert(me.name)
 
-////////// PROBLEM 2 //////////
+// ////////// PROBLEM 2 //////////
 
-/*
-  Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
-  Have the values to those keys be strings that are equal to your favorite thing in that category.
-*/
+// /*
+//   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
+//   Have the values to those keys be strings that are equal to your favorite thing in that category.
+// */
 
-//Code here
+const favoriteThings = {
+    band: 'Greta Van Fleet',
+    food: 'pizza',
+    person: 'Alyssa',
+    book: 'none',
+    movie: 'GoT',
+    holiday: 'Christmas'
+}
 
-/*
-  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
-  and then another key named 'brand' with the value being your favorite brand.
-*/
+// /*
+//   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
+//   and then another key named 'brand' with the value being your favorite brand.
+// */
 
-//Code here
+favoriteThings.car = 'Audi R8'
+favoriteThings.brand = 'Nike'
 
-/*
-  Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
-  and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
-*/
+// /*
+//   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
+//   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
+// */
 
-//Code here
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
-////////// PROBLEM 3 //////////
+// ////////// PROBLEM 3 //////////
 
-/*
-  Create an empty Object called backPack.
-  Now, create a variable called 'item' and set it equal to the string 'firstPocket'.
-  Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
-  Set the value of that key to 'chapstick'.
-  Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
-*/
+// /*
+//   Create an empty Object called backPack.
+//   Now, create a variable called 'item' and set it equal to the string 'firstPocket'.
+//   Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
+//   Set the value of that key to 'chapstick'.
+//   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
+// */
 
-//Code here
+const backPack = {}
+const item = 'firstPocket'
+backPack[item] = 'chapstick'
+backPack.color = backPack.color
 
-/*
-  After you do the above, alert your entire backPack object.
-*/
+// /*
+//   After you do the above, alert your entire backPack object.
+// */
 
-//Code here
+alert(backPack)
 
-/*
-You probably noticed that it just alerted [object Object].
-Alerting to see the data in your Object doesn't work so well.
-Instead, console.log your whole backPack object and then check out the console.
-*/
+// /*
+// You probably noticed that it just alerted [object Object].
+// Alerting to see the data in your Object doesn't work so well.
+// Instead, console.log your whole backPack object and then check out the console.
+// */
 
-//Code here
+console.log(backPack)
 
-////////// PROBLEM 4 //////////
+// ////////// PROBLEM 4 //////////
 
-// Do not edit the code below.
+// // Do not edit the code below.
 var user2 = {
-  name: 'Bryan',
-  age: 24,
-  pwHash: 'U+Ldlngx2BYQk',
-  email: 'BryanSmith33@gmail.com',
-  birthday: '05/02/1990',
-  username: 'bryansmith33'
+    name: 'Bryan',
+    age: 24,
+    pwHash: 'U+Ldlngx2BYQk',
+    email: 'BryanSmith33@gmail.com',
+    birthday: '05/02/1990',
+    username: 'bryansmith33'
 };
 // Do not edit the code above.
 
@@ -84,7 +101,8 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
